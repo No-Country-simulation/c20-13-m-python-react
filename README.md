@@ -38,18 +38,12 @@ Para unirte a la familia de Berry Chill, buscamos productos que sean:
 
 
 
+
 ## Tecnologias
 
-**Forntend:** html, javascrit
+**Forntend:** React, boostrap
 
-**Backend:** Node 
+**Backend:** Python - Django 
 
 **UX/UI:** Figma
-
-
-
-
-## Autor
-
-- [follow me](https://www.linkedin.com/in/marcelo-a-diaz-6a7926223/)
 
