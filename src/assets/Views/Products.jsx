@@ -1,15 +1,25 @@
 import React from 'react'
+import '../styles/Products.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import BCImage from '../Img/LogoRealBC.png'
+import { Cards } from '../components/Cards.jsx'
 
 export const Products = () => {
+  
+  const products = Array.from({length: 10}, (_, index) => ({
+    id: index + 1,
+    image: BCImage,
+    text: `Producto ${index + 1}`,
+  }))
   return (
-
-    <div className="card" style="width: 18rem;">
-      <img src="..." className="card-img-top" alt="..."></img>
-        <div className="card-body">
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
+    <div className="container">
+      <div className="row">
+        {products.map((product) => ( 
+          <div className="col-md-6 mb-4" key={product.id}>
+          <Cards image={product.image} altText={product.text}/>
         </div>
+          ))}
+      </div>
     </div>
   )
 }
