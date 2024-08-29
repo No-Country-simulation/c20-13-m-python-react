@@ -12,10 +12,10 @@ export const Products = () => {
     text: `Producto ${index + 1}`,
   }))
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container justify-content-center">
+      <div className="row ">
         {products.map((product) => ( 
-          <div className="col-md-6 mb-4" key={product.id}>
+          <div className="col-md-6 mb-4 " key={product.id}>
           <Cards image={product.image} altText={product.text}/>
         </div>
           ))}

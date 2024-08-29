@@ -8,7 +8,7 @@ export const Cards = ({image, text}) => {
         <div className="card">
             <img src={image} className="card-img-top" alt={text}></img>
             <div className="card-body d-flex justify-content-center">
-                <button className="btn btn-primary">
+                <button className="btn btn-secondary">
                     Comprar
                 </button>
             </div>
