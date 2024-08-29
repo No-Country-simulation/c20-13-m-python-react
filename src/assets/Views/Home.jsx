@@ -5,6 +5,7 @@ import "/src/home.css";
 const Home = () => {
   return (
     <>
+    <div className="home">
       <header className="container text-white">
         <h1>BerryChill</h1>
         <h2>Los mejores frutos congelados a un click de distancia</h2>
@@ -17,6 +18,7 @@ const Home = () => {
           Comprar
         </button>
       </div>
+    </div>
     </>
   );
 };
