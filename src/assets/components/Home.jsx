@@ -10,7 +10,7 @@ const Home = () => {
         <img className="img-fluid" src={logo} alt="Berrychill Logo" />
       </div>
       <div className="container bt">
-      <button type="button" className="btn btn-success btn-lg w-100">
+      <button type="button" className="btn btn-secondary btn-lg w-100">
        Comprar
       </button>
       </div>
