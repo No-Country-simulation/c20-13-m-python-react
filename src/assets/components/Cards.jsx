@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/Cards.css'
 
 export const Cards = ({image, text}) => {

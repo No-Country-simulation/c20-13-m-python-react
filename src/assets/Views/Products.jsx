@@ -1,14 +1,13 @@
 import React from 'react'
 import '../styles/Products.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import BCImage from '../Img/LogoRealBC.png'
+import logo from "/src/assets/img/logo.png";
 import { Cards } from '../components/Cards.jsx'
 
 export const Products = () => {
   
   const products = Array.from({length: 10}, (_, index) => ({
     id: index + 1,
-    image: BCImage,
+    image: logo,
     text: `Producto ${index + 1}`,
   }))
   return (
