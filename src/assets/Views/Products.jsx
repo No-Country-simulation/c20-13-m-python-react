@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/products.css'
 import logo from "/src/assets/img/logo.png";
 import { Cards } from '../components/Cards.jsx'
+import { Carousel } from 'react-bootstrap';
 
 export const Products = () => {
 
