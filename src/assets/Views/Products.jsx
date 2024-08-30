@@ -3,7 +3,7 @@ import '../styles/products.css'
 import logo from "/src/assets/img/logo.png";
 import { Cards } from '../components/Cards.jsx'
 import { WhatsAppIcon } from '../components/WhatsAppIcon.jsx';
-
+import Footer from '../components/Footer.jsx';
 
 export const Products = () => {
 
@@ -23,6 +23,7 @@ export const Products = () => {
         ))}
       </div>
       <WhatsAppIcon/>
+      <Footer/>
     </div>
   );
 };
