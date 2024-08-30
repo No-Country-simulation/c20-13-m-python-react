@@ -22,8 +22,8 @@ export const Products = () => {
           </div>
         ))}
       </div>
-      <WhatsAppIcon/>
-      <Footer/>
+      <WhatsAppIcon />
+      <Footer />
     </div>
   );
 };
