@@ -20,7 +20,9 @@ const router = createBrowserRouter([
   {
     path: "/*",
     element: <NotFound/>
-  }
+  },
+  
+
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
