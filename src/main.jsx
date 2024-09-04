@@ -23,9 +23,9 @@ const router = createBrowserRouter([
   },
   {
     path: "/*",
-    element: <NotFound/>
+    element: <NotFound />
   },
-  
+
 
 ]);
 createRoot(document.getElementById("root")).render(
