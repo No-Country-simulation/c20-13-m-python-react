@@ -5,6 +5,7 @@ import logo from "/src/assets/img/logo.png";
 import { Cards } from '../components/Cards.jsx'
 import { WhatsAppIcon } from '../components/WhatsAppIcon.jsx';
 import Footer from '../components/Footer.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 export const Products = () => {
 
@@ -15,6 +16,8 @@ export const Products = () => {
   }))
 
   return (
+    <>
+    <Navbar/>
     <div className="container-product">
       <div className="row">
         {products.map((product) => (
@@ -26,6 +29,6 @@ export const Products = () => {
       <WhatsAppIcon />
       <Footer />
     </div>
+    </>
   );
 };
-
