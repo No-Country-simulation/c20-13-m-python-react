@@ -6,7 +6,7 @@ import { Products } from "./assets/Views/Products.jsx";
 import { NotFound } from "./assets/Views/NotFound.jsx";
 
 import "./index.css";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css";
 
 const router = createBrowserRouter([
   {
