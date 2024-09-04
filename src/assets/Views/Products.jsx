@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import '../styles/products.css'
 import logo from "/src/assets/img/logo.png";
@@ -17,18 +16,18 @@ export const Products = () => {
 
   return (
     <>
-    <Navbar/>
-    <div className="container-product">
-      <div className="row">
-        {products.map((product) => (
-          <div className="col-sm-6 mb-4" key={product.id}>
-            <Cards image={product.image} text={product.text} />
-          </div>
-        ))}
+      <Navbar />
+      <div className="container-product">
+        <div className="row">
+          {products.map((product) => (
+            <div className="col-sm-6 mb-4" key={product.id}>
+              <Cards image={product.image} text={product.text} />
+            </div>
+          ))}
+        </div>
+        <WhatsAppIcon />
       </div>
-      <WhatsAppIcon />
       <Footer />
-    </div>
     </>
   );
 };
