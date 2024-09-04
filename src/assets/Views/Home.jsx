@@ -2,6 +2,7 @@ import React from "react";
 import logo from "/src/assets/img/logo.png";
 import { Link } from "react-router-dom";
 import "/src/home.css";
+import { Pay } from "./Pay";
 
 const Home = () => {
   return (
