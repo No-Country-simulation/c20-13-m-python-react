@@ -11,7 +11,14 @@ function Sidebar() {
         <li>💜 Pulpas</li>
         <li>📜 Quienes somos</li>
         <li>👤 Perfil</li>
-        <li>📁 Admin. para Berrychill</li>
+          <li>📁 Editar mi Perfil</li>
+          <li>Compras pendientes</li>
+          <li>Favoritos</li>
+          <li>Historial</li>
+        <li>Admin. para Berrychill</li>
+          <li>Editar Productos</li>
+          <li>Personaizar tienda</li>
+        <li>Cerrar Sesion</li>
       </ul>
     </aside>
   );
