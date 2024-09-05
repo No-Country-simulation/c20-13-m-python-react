@@ -6,6 +6,8 @@ import { Products } from "./assets/Views/Products.jsx";
 import { NotFound } from "./assets/Views/NotFound.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
+import Cart from "./assets/components/Cart.jsx";
+import Navbar from "./assets/components/Navbar.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +21,16 @@ const router = createBrowserRouter([
   {
     path: "/*",
     element: <NotFound/>
-  }
+  },
+  {
+    path: "/navbar",
+    element: <Navbar/>
+  },
+  {
+    path: "/cart",
+    element: <Cart/>
+  },
+
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
