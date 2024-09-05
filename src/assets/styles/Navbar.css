@@ -1,12 +1,18 @@
 .navbar {
+  height: 60px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.navbar-icons span {
-  margin-left: 15px;
-  cursor: pointer;
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
 }

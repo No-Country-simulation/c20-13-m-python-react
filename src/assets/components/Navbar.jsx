@@ -1,5 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
+import { View, Text, TouchableOpacity } from 'react-native';
+import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 function Navbar() {
@@ -8,9 +9,13 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-logo">Shop BerryChill</div>
         <div className="navbar-icons">
-          <span>🛒 Carrito</span>
+          <TouchableOpacity onPress={() => navigation.openDrawer()}>
+            <span>☰</span>
+          </TouchableOpacity>
+          <Link to='/cart'>
+            <span>🛒 Carrito</span>
+          </Link>
           <span>👤 Iniciar Sesión</span>
-          <span>☰</span>
         </div>
       </nav>
     </>
