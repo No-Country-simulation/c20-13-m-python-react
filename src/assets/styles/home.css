@@ -1,0 +1,13 @@
+h1{
+    background-color: rgba(113, 113, 125, 0.999);
+    padding: 5rem;
+}
+.home{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    text-align: center;
+}
+.bt {
+    margin-top:5%
+}
