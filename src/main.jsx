@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./assets/Views/Home.jsx";
 import { Products } from "./assets/Views/Products.jsx";
+import {ProductDetails} from "./assets/Views/ProductDetails.jsx"
 import { NotFound } from "./assets/Views/NotFound.jsx";
 import AboutUs from "./assets/Views/AboutUs.jsx";
 import { Pay } from "./assets/Views/Pay.jsx";
@@ -31,11 +32,14 @@ const router = createBrowserRouter([
     path:"/checkout",
     element: <Checkout/>
   },
+    path: "/productdetails/",
+    element: <ProductDetails/>
+  },
   {
     path: "/*",
     element: <NotFound/>
   },
-  
+
 
 ]);
 createRoot(document.getElementById("root")).render(
@@ -43,3 +47,4 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
+
