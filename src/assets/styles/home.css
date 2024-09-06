@@ -1,6 +1,7 @@
 h1{
     background-color: rgba(113, 113, 125, 0.999);
-    padding: 5rem;
+    border: solid;
+    padding: 2rem;
 }
 .home{
     display: grid;
@@ -9,5 +10,6 @@ h1{
     text-align: center;
 }
 .bt {
-    margin-top:5%
+    margin-top:2%;
+    margin-bottom: 2%;
 }
