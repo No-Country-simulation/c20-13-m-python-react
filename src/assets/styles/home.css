@@ -1,6 +1,8 @@
 h1{
-    background-color: rgba(113, 113, 125, 0.999);
+    background-color: rgba(139, 139, 143, 0.999);
     border: solid;
+    border-radius: 1rem;
+    opacity: 0.6;
     padding: 2rem;
 }
 .home{

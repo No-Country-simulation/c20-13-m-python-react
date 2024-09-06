@@ -22,7 +22,7 @@ export const MarketFooter = () => {
           </Link>
           <div className="container-fluid mt-2">
             <p
-              className="mb-1 text-start"
+              className="mb-1"
               style={{
                 fontSize: "0.875rem",
               }}
@@ -33,7 +33,7 @@ export const MarketFooter = () => {
               <span className="ms-2">Envío gratis</span>
             </p>
             <p
-              className="mb-1 text-start"
+              className="mb-1"
               style={{
                 fontSize: "0.875rem",
               }}
@@ -47,7 +47,6 @@ export const MarketFooter = () => {
               </span>
             </p>
             <p
-              className="text-start"
               style={{
                 fontSize: "0.875rem",
               }}
