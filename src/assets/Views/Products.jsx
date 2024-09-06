@@ -1,8 +1,11 @@
+
 import React from "react"
 import "../styles/products.css"
 import logo from "/src/assets/img/logo.png";
 import { Cards } from "../components/Cards.jsx"
 import { Carousel } from "../components/Carousel.jsx"
+import Footer from '../components/Footer.jsx';
+
 
 export const Products = () => {
 
@@ -23,8 +26,10 @@ export const Products = () => {
             </div>
           ))}
         </div>
+        <Footer />
       </div>
     </React.Fragment>
   );
 };
+
 
