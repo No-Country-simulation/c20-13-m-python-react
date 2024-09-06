@@ -23,7 +23,7 @@ export const ProductDetails = () => {
                             </p>
                             <h1 className="product-price d-flex justify-content-start">Precio $$</h1>
                             <div className="buttons d-flex justify-content-start">
-                                <button className="quantity-button bg-secondary text-light">Cantidad</button>
+                                <button className="quantity-button bg-secondary text-light">Agregar</button>
                             </div>
                             <div className="buttons d-flex justify-content-start">
                                 <button className="add-to-cart-button bg-secondary text-light">Finalizar Compra</button>
