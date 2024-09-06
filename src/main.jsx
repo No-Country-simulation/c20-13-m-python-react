@@ -6,8 +6,10 @@ import { Products } from "./assets/Views/Products.jsx";
 import {ProductDetails} from "./assets/Views/ProductDetails.jsx"
 import { NotFound } from "./assets/Views/NotFound.jsx";
 import AboutUs from "./assets/Views/AboutUs.jsx";
+import { Pay } from "./assets/Views/Pay.jsx";
+import { Checkout } from "./assets/Views/CheckOut.jsx";
 import "./index.css";
-import "bootstrap/dist/css";
+import "bootstrap";
 
 const router = createBrowserRouter([
   {
@@ -23,10 +25,16 @@ const router = createBrowserRouter([
     element: <AboutUs />
   },
   {
+    path:"/pay",
+    element: <Pay/>
+  },
+  {
+    path:"/checkout",
+    element: <Checkout/>
+  },
     path: "/productdetails/",
     element: <ProductDetails/>
   },
-
   {
     path: "/*",
     element: <NotFound/>

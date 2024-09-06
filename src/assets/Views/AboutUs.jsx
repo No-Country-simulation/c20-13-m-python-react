@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <Container className="my-5">
       <Row>
-        <Col className="text-start  text-white">
+        <Col className="text-start  text-dark">
           <p className="fw-bold pt-4 pb-2">Quiénes Somos</p>
           <p>¡Bienvenidos a Berry Chill!, nos dedicamos a ofrecer una selección inigualable de frutos rojos, provenientes de la región más destacada en la cosecha de estos productos en Argentina: <strong>Coronda, Santa Fe.</strong></p>
 
