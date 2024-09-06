@@ -27,6 +27,3 @@ export const Cards = ({ image, text }) => {
         </div>
     )
 }
-
-
-
