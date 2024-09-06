@@ -8,11 +8,7 @@ import Footer from './assets/components/Footer';
 function App() {
 
   return (
-    <>
-      <Home />
-      <Products />
-      <Footer />
-    </>
+  
   )
 }
 
