@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className="home vh-100">
       <header>
-        <h1 className="text-white">VitalGreen</h1>
+        <h1 className="text-white">VitalGreens</h1>
       </header>
       <section className="container">
         <img className="img-fluid" src={Food} alt="freshGreensAndVegetables" />
