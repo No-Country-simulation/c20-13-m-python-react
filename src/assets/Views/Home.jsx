@@ -7,6 +7,7 @@ import { Pay } from "./Pay";
 const Home = () => {
   return (
     <>
+
       <header className="container">
         <h1>BerryChill</h1>
         <h2>Los mejores frutos congelados a un click de distancia</h2>
@@ -21,6 +22,7 @@ const Home = () => {
           </button>
         </Link>
       </div>
+
     </>
   );
 };
