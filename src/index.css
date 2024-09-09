@@ -2,9 +2,7 @@ body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  margin: auto;
+  background-color: rgb(246, 241, 241);
   color-scheme: light dark;
   color: rgb(0, 0, 0);
 }

@@ -3,10 +3,13 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./assets/Views/Home.jsx";
 import { Products } from "./assets/Views/Products.jsx";
+import { ProductDetails } from "./assets/Views/ProductDetails.jsx"
 import { NotFound } from "./assets/Views/NotFound.jsx";
 import AboutUs from "./assets/Views/AboutUs.jsx";
+import { Pay } from "./assets/Views/Pay.jsx";
+import { Checkout } from "./assets/Views/CheckOut.jsx";
 import "./index.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +25,18 @@ const router = createBrowserRouter([
     element: <AboutUs />
   },
   {
+    path: "/pay",
+    element: <Pay />
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />
+  },
+  {
+    path: "/productdetails/",
+    element: <ProductDetails />
+  },
+  {
     path: "/*",
     element: <NotFound />
   },
@@ -33,3 +48,4 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
+
