@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'berryChill.urls'
+ROOT_URLCONF = 'VitalGrenn.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'berryChill.wsgi.application'
+WSGI_APPLICATION = 'VitalGrenn.wsgi.application'
 
 
 # Database
