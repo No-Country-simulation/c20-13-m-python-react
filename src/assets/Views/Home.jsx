@@ -14,7 +14,7 @@ const Home = () => {
       <section className="container">
         <img className="img-fluid" src={Food} alt="freshGreensAndVegetables" />
       </section>
-      <MarketFooter/>
+      <MarketFooter />
     </div>
   );
 };

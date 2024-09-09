@@ -20,7 +20,7 @@ export const Products = () => {
 
   return (
     <React.Fragment>
-      <Navbar/>
+      <Navbar />
       <Carousel />
       <div className="container-product">
         <div className="row">
