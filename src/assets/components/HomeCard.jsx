@@ -9,36 +9,16 @@ import "../styles/homeCard.css";
 
 const HomeCard = () => {
   return (
-    <div className="row align-items-center justify-content-center">
-      <div className="col-sm-3">
-        <div className="card-body">
-          <img className="logo" src={logo} alt="Company logo" />
-        </div>
+    <div className="container text-center">
+      <div className="row">
+        <img className="col logo" src={logo} alt="Company logo" />
+        <img className="col bs" src={biomac} alt="Company logo" />
+        <img className="col bs" src={fitfood} alt="Company logo" />
       </div>
-      <div className="col-sm-3">
-        <div className="card-body">
-          <img className="bs" src={biomac} alt="Company logo" />
-        </div>
-      </div>
-      <div className="col-sm-3">
-        <div className="card-body">
-          <img className="bs" src={fitfood} alt="Company logo" />
-        </div>
-      </div>
-      <div className="col-sm-3">
-        <div className="card-body">
-          <img className="bs" src={nevada} alt="Company logo" />
-        </div>
-      </div>
-      <div className="col-sm-3">
-        <div className="card-body">
-          <img className="bs" src={friodep} alt="Company logo" />
-        </div>
-      </div>
-      <div className="col-sm-3">
-        <div className="card-body">
-          <img className="bs" src={fresh} alt="Company logo" />
-        </div>
+      <div className="row">
+        <img className="col bs" src={nevada} alt="Company logo" />
+        <img className="col bs" src={friodep} alt="Company logo" />
+        <img className="col bs" src={fresh} alt="Company logo" />
       </div>
     </div>
   );
