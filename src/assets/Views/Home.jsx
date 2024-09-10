@@ -1,27 +1,21 @@
 import React from "react";
-import logo from "/src/assets/img/logo.png";
+import Food from "/src/assets/img/food.jpeg";
 import { Link } from "react-router-dom";
-import "/src/home.css";
+import "../styles/home.css";
 import { Pay } from "./Pay";
+import { MarketFooter } from "../components/MarketFooter";
 
 const Home = () => {
   return (
-    <>
-        <header className="container">
-          <h1>BerryChill</h1>
-          <h2>Los mejores frutos congelados a un click de distancia</h2>
-        </header>
-        <section className="container">
-          <img className="img-fluid" src={logo} alt="Berrychill Logo" />
-        </section>
-        <div className="bt d-grid col-xm-6 col-md-4 col-xl-2 mx-auto">
-          <Link to={"/products"}>
-            <button type="button" className="btn btn-secondary btn-lg">
-              Comprar
-            </button>
-          </Link>
-        </div>
-    </>
+    <div className="home vh-100">
+      <header>
+        <h1 className="text-white">VitalGreens</h1>
+      </header>
+      <section className="container">
+        <img className="img-fluid" src={Food} alt="freshGreensAndVegetables" />
+      </section>
+      <MarketFooter />
+    </div>
   );
 };
 
