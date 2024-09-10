@@ -1,13 +1,11 @@
-import React from 'react';
-import './App.css';
-import Home from './assets/components/Home';
+import React from "react";
+import "./App.css";
+import Home from "./assets/components/Home";
 import { Products } from "./assets/Views/Products";
-import Footer from './assets/components/Footer';
-
+import Footer from "./assets/components/Footer";
 
 function App() {
-
-  return
+  return;
 }
 
-export default App
+export default App;
