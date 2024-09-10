@@ -1,5 +1,5 @@
 import React from "react";
-import Food from "/src/assets/img/food.jpeg";
+import Food from "../img/Food.jpeg";;
 import { Link } from "react-router-dom";
 import "../styles/home.css";
 import { Pay } from "./Pay";

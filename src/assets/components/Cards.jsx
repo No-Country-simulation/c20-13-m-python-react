@@ -16,7 +16,7 @@ export const Cards = ({ image, text }) => {
             </div>
             <div className="card-body">
                 <h3 className="card-title">Nombre Producto</h3>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui, repellendus aspernatur amet in aut atque suscipit veniam minima eum consequuntur vero nesciunt porro earum ex nulla accusamus itaque illo.</p>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <h5 className="card-text">Precio $$</h5>
             </div>
             <div className="card-body btn">
