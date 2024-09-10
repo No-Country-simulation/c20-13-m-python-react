@@ -4,7 +4,7 @@ import React from "react"
 import "../styles/products.css"
 import logo from "/src/assets/img/logo.png";
 import { Cards } from "../components/Cards.jsx"
-import { Carousel } from "../components/Carousel.jsx"
+import { ImgCarousel } from "../components/ImgCarousel.jsx"
 import Footer from '../components/Footer.jsx';
 import { WhatsAppIcon } from '../components/WhatsAppIcon.jsx';
 import Navbar from '../components/Navbar.jsx';
@@ -21,7 +21,7 @@ export const Products = () => {
   return (
     <React.Fragment>
       <Navbar/>
-      <Carousel />
+      <ImgCarousel />
       <div className="container-product">
         <div className="row">
           {products.map((product) => (
