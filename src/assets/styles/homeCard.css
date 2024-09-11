@@ -1,11 +1,10 @@
 .logo {
-    min-width: 50px;
+    min-width: 30px;
     height: auto;
-    padding: 5px;
 }
 
 .bs {
-    min-width: 90px;
-    height: auto;
-    padding: 5px;
+    min-width: 120px;
+    height: fit-content;
+
 }

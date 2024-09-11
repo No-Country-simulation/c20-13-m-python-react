@@ -10,34 +10,20 @@ export const MarketFooter = () => {
   return (
     <>
       <nav
-        className="navbar"
+        className="navbar vw-100"
         style={{ background: "rgba(117, 224, 146, 0.50)" }}
       >
-        <div className="d-flex flex-column justify-content-between align-items-center vw-100">
-          <div className="row">
-            <div className="col-6">
-              <h5>CONTACTANOS</h5>
-              <a
-                href="https://www.instagram.com/tu_nombre_de_instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="d-flex align-items-center text-small"
-                style={{
-                  fontSize: "0.875rem",
-                  textDecoration: "none",
-                  color: "inherit",
-                }}
-              >
-                <FaInstagram size={18} className="me-2" />
-                @berry__chill
-              </a>
+        <div className="container">
+          <div className="row container-fluid vw-100">
+            <div className="col">
+              <h6 className="text-start">CONTACTANOS</h6>
               <a
                 href="https://wa.me/123456789"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="d-flex  text-small"
+                className="d-flex"
                 style={{
-                  fontSize: "0.875rem",
+                  fontSize: "10px",
                   textDecoration: "none",
                   color: "inherit",
                 }}
@@ -46,61 +32,96 @@ export const MarketFooter = () => {
                 +549 3464 443683
               </a>
               <a
-                href="mailto:berrychillcasilda@gmail.com"
-                className="d-flex align-items-center text-small"
+                href="https://www.instagram.com/tu_nombre_de_instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="d-flex"
                 style={{
-                  fontSize: "0.875rem",
+                  fontSize: "10px",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                <FaInstagram size={18} className="me-2" />
+                @vitalGreens
+              </a>
+
+              <a
+                href="mailto:vitalGreens@gmail.com"
+                className="d-flex"
+                style={{
+                  fontSize: "10px",
                   textDecoration: "none",
                   color: "inherit",
                 }}
               >
                 <FcGoogle size={18} className="me-2" />
-                berr...@gmail.com
+                vitalGreens@gmail.com
               </a>
             </div>
-            <div className="col-6">
-              <h5>CONOCÉ MÁS</h5>
+            <div className="col">
+              <h6 className="text-end">CONOCÉ MÁS</h6>
               <Link
                 to="/aboutus"
                 style={{
-                  fontSize: "0.875rem",
+                  fontSize: "10px",
                   textDecoration: "none",
                   color: "inherit",
                 }}
               >
-                <p className="me-2">Quiénes somos?</p>
+                <p
+                  className="me-2 text-end"
+                  style={{
+                    fontSize: "10px",
+                    textDecoration: "none",
+                    color: "inherit",
+                  }}
+                >
+                  Quiénes somos?
+                </p>
               </Link>
-              <p className="me-2">Unite a la feria saludable</p>
+              <p
+                style={{
+                  fontSize: "10px",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+                className="me-2 text-end"
+              >
+                Unite a la feria saludable
+              </p>
             </div>
           </div>
-          <div className="container">
-            <p
-              className="mb-1 text-start"
-              style={{
-                fontSize: "0.875rem",
-              }}
-            >
-              <i className="bi bi-phone">
-                <BiMessage size={18} className="me-2" />
-              </i>
-              <span className="ms-2">
-                Dentro 24 horas un vendedor se comunicará con vos para coordinar
-                la entrega
-              </span>
-            </p>
-            <p
-              className="text-start"
-              style={{
-                fontSize: "0.875rem",
-              }}
-            >
-              <i className="bi bi-shield-lock">
-                <CiLock size={18} className="me-2" />
-              </i>
-              <span className="ms-2">
-                Comprá con tranquilidad. Sitio seguro.
-              </span>
-            </p>
+          <div className="row container-fluid text-center">
+            <div className="col-12">
+              <p
+                className="mb-1 text-start"
+                style={{
+                  fontSize: "10px",
+                }}
+              >
+                <i className="bi bi-phone">
+                  <BiMessage size={18} className="me-2" />
+                </i>
+                <span className="ms-2">
+                  Dentro 24 horas un vendedor se comunicará con vos para
+                  coordinar la entrega
+                </span>
+              </p>
+              <p
+                className="text-start"
+                style={{
+                  fontSize: "10px",
+                }}
+              >
+                <i className="bi bi-shield-lock">
+                  <CiLock size={18} className="me-2" />
+                </i>
+                <span className="ms-2">
+                  Comprá con tranquilidad. Sitio seguro.
+                </span>
+              </p>
+            </div>
           </div>
         </div>
       </nav>
