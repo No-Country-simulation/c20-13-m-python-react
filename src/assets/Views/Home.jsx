@@ -9,6 +9,29 @@ import HomeCard from "../components/homeCard";
 
 const Home = () => {
   return (
+<<<<<<< HEAD
+    <>
+      <div className="home">
+        <header className="container text-white">
+          <h1>BerryChill</h1>
+          <h2>Los mejores frutos congelados a un click de distancia</h2>
+        </header>
+        <section className="container">
+          <img className="img-fluid" src={logo} alt="Berrychill Logo" />
+        </section>
+        <div className="bt d-grid col-xm-6 col-md-4 col-xl-2 mx-auto">
+          <Link to={"/products"}>
+            <button type="button" className="btn btn-secondary btn-lg">
+              Comprar
+            </button>
+          </Link>
+        </div>
+        <Link to={"/aboutus"}>
+        <p>Quienes Somos</p>
+        </Link>
+      </div>
+    </>
+=======
     <div className="home vh-100">
       <header className="container text-center">
         <img src={VG} alt="VitalGreen Logo" />
@@ -23,6 +46,7 @@ const Home = () => {
       />
       <MarketFooter />
     </div>
+>>>>>>> 79ed973a913ac5c977d2b6fbbcbc11c27e2819c2
   );
 };
 

@@ -1,15 +1,27 @@
-.sidebar {
-  width: 250px;
-  background-color: #f5f5f5;
-  padding: 15px;
+.container {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
 }
 
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #343a40;
 }
 
-.sidebar li {
-  margin-bottom: 10px;
+.item {
+  font-size: 18px;
   cursor: pointer;
+  color: #495057;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.item:hover {
+  background-color: #e9ecef;
+  color: #212529;
 }
