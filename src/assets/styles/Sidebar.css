@@ -1,3 +1,6 @@
+.sidebar {
+  
+}
 .container {
   flex: 1;
   background-color: #f8f9fa;
@@ -24,4 +27,8 @@
 .item:hover {
   background-color: #e9ecef;
   color: #212529;
+}
+
+.perfil {
+  width: 44px;
 }
