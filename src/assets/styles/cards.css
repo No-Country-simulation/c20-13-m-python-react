@@ -1,7 +1,5 @@
 .card {
-    width: 100%;
-    background-color: white;
-    border-radius: 20px;
+    max-width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
@@ -9,10 +7,15 @@
     margin-top: 10px; 
 }
 
+.img-container {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 .img-top {
     width: 50%;
-    /* max-height: 200px;  */
-    object-fit: cover; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card-body {
@@ -20,8 +23,43 @@
 }
 
 .card-body .btn {
-    width: 90%;
+    width: 100%;
     border-radius: 20px;
+    margin: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.favorite-btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* .favorite-btn:hover {
+    color: #ff0000;
+} */
+
+/* .position-relative {
+    position: relative;
+} */
+
+/* .position-absolute {
+    position: absolute;
+} */
+
+/* .top-0 {
+    top: 0;
+}
+
+.end-0 {
+    right: 0;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.me-3 {
+    margin-right: 0.5rem;
+} */

@@ -1,0 +1,16 @@
+header {
+    margin-top: 1rem;
+}
+
+.home {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.bgimg {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+}

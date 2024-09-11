@@ -1,0 +1,102 @@
+.product-details {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.product-image {
+    width: 70%;
+    margin: 20px;
+}
+
+.product-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.product-name {
+    /* font-size: 1.5rem; */
+    margin-bottom: 10px;
+}
+
+.product-details-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    /* font-size: 1.25rem; */
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quantity-button, .add-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white; 
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.quantity-button {
+    background-color: #6c757d;
+}
+
+.additional-info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.additional-info h5,
+.additional-info h6 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.additional-info p {
+    font-size: 1rem;
+}
+
+/* @media (max-width: 768px) {
+    .product-info {
+        padding: 10px;
+    }
+
+    .product-name {
+        font-size: 1.2rem;
+    }
+
+    .product-details-text {
+        font-size: 0.9rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
+    .quantity-button, .add-button {
+        font-size: 0.9rem;
+    }
+
+    .additional-info h5,
+    .additional-info h6 {
+        font-size: 1rem;
+    }
+
+    .additional-info p {
+        font-size: 0.9rem;
+    }
+} */
