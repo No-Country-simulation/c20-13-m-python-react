@@ -21,6 +21,9 @@ const Home = () => {
             </button>
           </Link>
         </div>
+        <Link to={"/aboutus"}>
+        <p>Quienes Somos</p>
+        </Link>
       </div>
     </>
   );

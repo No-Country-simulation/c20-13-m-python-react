@@ -14,7 +14,7 @@
 
 .item {
   font-size: 18px;
-  margin-vertical: 10px;
+  cursor: pointer;
   color: #495057;
   padding: 10px;
   border-radius: 5px;
