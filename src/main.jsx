@@ -8,6 +8,7 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Cart from "./assets/components/Cart.jsx";
 import Navbar from "./assets/components/Navbar.jsx";
+import Sidebar from "./assets/components/sidebar.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart/>
+  },
+  {
+    path: "/sidebar",
+    element: <Sidebar/>
   },
 
 ]);

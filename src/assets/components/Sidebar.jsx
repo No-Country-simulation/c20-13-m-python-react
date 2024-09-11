@@ -1,8 +1,11 @@
 import React from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import '../../styles/Sidebar.css';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import '../styles/sidebar.css';
 
-const Sidebar = ({ navigation }) => {
+const Sidebar = () => {
+  const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Categorías</Text>
@@ -62,5 +65,16 @@ const Sidebar = ({ navigation }) => {
   );
 };
 
+const styles = StyleSheet.create({
+  container: {
+    // tus estilos aquí
+  },
+  title: {
+    // tus estilos aquí
+  },
+  item: {
+    // tus estilos aquí
+  }
+});
 
 export default Sidebar;
