@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
+import '../styles/Navbar.css';
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <div>Navbar</div>
-  )
+    <>
+      <nav className="navbar">
+        <div className="navbar-logo">Shop BerryChill</div>
+        <div className="navbar-icons">
+          <span>🛒 Carrito</span>
+          <span>👤 Iniciar Sesión</span>
+          <span>☰</span>
+        </div>
+      </nav>
+    </>
+  );
 }
 
-export default Navbar
+export default Navbar;
