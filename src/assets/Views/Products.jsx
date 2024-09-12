@@ -1,5 +1,3 @@
-
-
 import React from "react"
 import "../styles/products.css"
 import logo from "/src/assets/img/logo.png";
@@ -12,7 +10,7 @@ import Navbar from '../components/Navbar.jsx';
 
 export const Products = () => {
 
-  const products = Array.from({ length: 10 }, (_, index) => ({
+  const products = Array.from({ length: 5 }, (_, index) => ({
     id: index + 1,
     image: logo,
     text: `Producto ${index + 1}`,

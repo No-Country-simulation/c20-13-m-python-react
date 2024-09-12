@@ -1,6 +1,7 @@
 .product-details {
     padding: 20px;
     max-width: 1200px;
+    height: auto;
     margin: auto;
     background-color: white;
 }
@@ -10,7 +11,7 @@
 }
 
 .product-image {
-    width: 70%;
+    width: 100%;
     margin: 20px;
 }
 
@@ -20,7 +21,7 @@
 }
 
 .product-name {
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
@@ -30,7 +31,7 @@
 }
 
 .product-price {
-    /* font-size: 1.25rem; */
+    font-size: 2rem;
     margin-bottom: 15px;
 }
 
@@ -49,10 +50,6 @@
     color: white; 
     cursor: pointer;
     border-radius: 30px;
-}
-
-.quantity-button {
-    background-color: #6c757d;
 }
 
 .additional-info {
