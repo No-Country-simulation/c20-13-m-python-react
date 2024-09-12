@@ -11,14 +11,14 @@ const HomeCard = () => {
   return (
     <div className="container-fluid">
       <div className="row align-items-center justify-content-center">
-        <img className="col bs" src={friodep} alt="Company logo" />
-        <img className="col bs" src={biomac} alt="Company logo" />
-        <img className="col bs" src={fitfood} alt="Company logo" />
+        <img className="col" src={friodep} alt="Company logo" />
+        <img className="col" src={biomac} alt="Company logo" />
+        <img className="col" src={fitfood} alt="Company logo" />
       </div>
       <div className="row align-items-center justify-content-center">
-        <img className="col bs" src={nevada} alt="Company logo" />
-        <img className="col logo" src={logo} alt="Company logo" />
-        <img className="col bs" src={fresh} alt="Company logo" />
+        <img className="col" src={nevada} alt="Company logo" />
+        <img className="col-3" src={logo} alt="Company logo" />
+        <img className="col" src={fresh} alt="Company logo" />
       </div>
     </div>
   );

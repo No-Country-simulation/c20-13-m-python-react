@@ -1,6 +1,5 @@
 import React from "react";
 import { BiMessage } from "react-icons/bi";
-import { BsTruck } from "react-icons/bs";
 import { CiLock } from "react-icons/ci";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
@@ -14,14 +13,14 @@ export const MarketFooter = () => {
         style={{ background: "rgba(117, 224, 146, 0.50)" }}
       >
         <div className="container">
-          <div className="row container-fluid vw-100">
+          <div className="row vw-100">
             <div className="col">
               <h6 className="text-start">CONTACTANOS</h6>
               <a
                 href="https://wa.me/123456789"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="d-flex"
+                className="d-flex text-center"
                 style={{
                   fontSize: "10px",
                   textDecoration: "none",
@@ -60,7 +59,7 @@ export const MarketFooter = () => {
               </a>
             </div>
             <div className="col">
-              <h6 className="text-end">CONOCÉ MÁS</h6>
+              <h6 className="">CONOCÉ MÁS</h6>
               <Link
                 to="/aboutus"
                 style={{
@@ -70,7 +69,7 @@ export const MarketFooter = () => {
                 }}
               >
                 <p
-                  className="me-2 text-end"
+                  className="me-2"
                   style={{
                     fontSize: "10px",
                     textDecoration: "none",
@@ -86,14 +85,13 @@ export const MarketFooter = () => {
                   textDecoration: "none",
                   color: "inherit",
                 }}
-                className="me-2 text-end"
+                className="me-2 "
               >
                 Unite a la feria saludable
               </p>
             </div>
-          </div>
-          <div className="row container-fluid text-center">
-            <div className="col-12">
+            <div className="col-sm-5">
+              <br />
               <p
                 className="mb-1 text-start"
                 style={{
