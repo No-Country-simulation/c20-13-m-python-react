@@ -1,17 +1,16 @@
-h1{
-    background-color: rgba(139, 139, 143, 0.999);
-    border: solid;
-    border-radius: 1rem;
-    opacity: 0.6;
-    padding: 2rem;
+header {
+    margin-top: 1rem;
 }
-.home{
+
+.home {
     display: grid;
     place-items: center;
-    margin: auto;
     text-align: center;
+    margin: auto;
 }
-.bt {
-    margin-top:2%;
-    margin-bottom: 2%;
+
+.bgimg {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
 }

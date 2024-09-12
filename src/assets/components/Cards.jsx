@@ -11,6 +11,7 @@ export const Cards = () => {
     }
 
     return (
+
         <div className="row justify-content-center">
             <div className="col">
                 <div className="card rounded-5" style={{ background: "#fcecf9" }}>
