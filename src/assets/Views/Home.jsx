@@ -6,13 +6,12 @@ import HomeCard from "../components/homeCard";
 
 const Home = () => {
   return (
-    <div className="text-center">
-      <header className="container ">
+    <div className="text-center" id="home">
+      <header className="grid-item">
         <img className="logo" src={vitalGreens} alt="VitalGreen Logo" />
-        <h6>Todo lo bueno,</h6>
-        <h6>en nuestro Marketplace</h6>
+        <h4 className="p-3">Todo lo bueno, en nuestro Marketplace</h4>
       </header>
-      <section className="text-center">
+      <section className="grid-item">
         <HomeCard />
         <img
           className="bgimg"

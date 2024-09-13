@@ -9,7 +9,7 @@ export const MarketFooter = () => {
   return (
     <>
       <nav
-        className="navbar vw-100"
+        className="navbar p-1 h-100 vw-100"
         style={{ background: "rgba(117, 224, 146, 0.50)" }}
       >
         <div className="container">
@@ -22,7 +22,7 @@ export const MarketFooter = () => {
                 rel="noopener noreferrer"
                 className="d-flex text-center"
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                   textDecoration: "none",
                   color: "inherit",
                 }}
@@ -36,7 +36,7 @@ export const MarketFooter = () => {
                 rel="noopener noreferrer"
                 className="d-flex"
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                   textDecoration: "none",
                   color: "inherit",
                 }}
@@ -49,7 +49,7 @@ export const MarketFooter = () => {
                 href="mailto:vitalGreens@gmail.com"
                 className="d-flex"
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                   textDecoration: "none",
                   color: "inherit",
                 }}
@@ -63,7 +63,7 @@ export const MarketFooter = () => {
               <Link
                 to="/aboutus"
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                   textDecoration: "none",
                   color: "inherit",
                 }}
@@ -71,7 +71,7 @@ export const MarketFooter = () => {
                 <p
                   className="me-2"
                   style={{
-                    fontSize: "10px",
+                    fontSize: "1em",
                     textDecoration: "none",
                     color: "inherit",
                   }}
@@ -81,7 +81,7 @@ export const MarketFooter = () => {
               </Link>
               <p
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                   textDecoration: "none",
                   color: "inherit",
                 }}
@@ -95,7 +95,7 @@ export const MarketFooter = () => {
               <p
                 className="mb-1 text-start"
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                 }}
               >
                 <i className="bi bi-phone">
@@ -109,7 +109,7 @@ export const MarketFooter = () => {
               <p
                 className="text-start"
                 style={{
-                  fontSize: "10px",
+                  fontSize: "0.7em",
                 }}
               >
                 <i className="bi bi-shield-lock">
