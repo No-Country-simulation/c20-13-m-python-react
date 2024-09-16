@@ -21,17 +21,17 @@
 }
 
 .product-name {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 .product-details-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
 .product-price {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 15px;
 }
 
@@ -41,10 +41,10 @@
     gap: 10px;
 }
 
-.quantity-button, .add-button {
-    width: 100%;
+.quantity-button, .add-button, .shop-button {
+    max-width: 100%;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white; 

@@ -2,6 +2,7 @@ import React from "react";
 import imgArandanos from "../img/Arandanos-BerryChill.png";
 import { CardsCarousel } from "../components/CardsCarousel";
 import { WhatsAppIcon } from "../components/WhatsAppIcon";
+import { Link } from "react-router-dom";
 import "../styles/product-details.css";
 
 export const ProductDetails = () => {
@@ -24,7 +25,7 @@ export const ProductDetails = () => {
                         <p className="product-details-text">
                             100% Natural, sin agregados ni aditivos.
                         </p>
-                        <h1 className="product-price">$ 9.700</h1>
+                        <h2 className="product-price">$ 9.700</h2>
                         <div className="buttons">
                             <button className="quantity-button" style={{ background: "#A44694" }}>Agregar</button>
                             <button className="add-button" style={{ background: "#A44694" }}>Finalizar Compra</button>
@@ -41,7 +42,7 @@ export const ProductDetails = () => {
             </div>
             <CardsCarousel />
             <div className=" d-flex justify-content-center m-5">
-                <button className="add-button text-dark w-25">Seguir Comprando</button>
+                <Link to={"/products"} className="shop-button text-dark w-25">Seguir Comprando</Link>
             </div>
             <WhatsAppIcon />
         </div>

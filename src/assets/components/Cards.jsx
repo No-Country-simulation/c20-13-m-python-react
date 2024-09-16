@@ -11,33 +11,22 @@ export const Cards = () => {
     }
 
     return (
-
-        <div className="row justify-content-center">
-            <div className="col">
-                <div className="card rounded-5" style={{ background: "#fcecf9" }}>
-                    <div className="img-container bg-light">
-                        <img src={imgArandanos} className="img-top" alt={""}></img>
-                    </div>
-                    <div className="card-body">
-                        <h3 className="card-title">Nombre Producto</h3>
-                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <h5 className="card-text">Precio $$</h5>
-                    </div>
-                    <div className="card-body btn">
-                        <Link to={"/productdetails"} className="btn btn-light">
-                            Ver Producto
-                        </Link>
-                        <button className="btn btn-secondary" style={{ background: "#A44694" }}>
-                            Comprar
-                        </button>
-                    </div>
-                    <i className={`fa-solid fa-heart favorite-btn position-absolute top-0 end-0 mt-3 me-3 ${Favorite ? "text-danger" : "text-black-50"}`}
-                        onClick={handleFavorite}
-                        aria-label="Agregar a favoritos"
-                    >
-                    </i>
-                </div>
-            </div>
+        <div className="card rounded-5" id="product-card">
+            <img src={imgArandanos} className="img-top" alt={""}></img>
+            <h3 className="card-title fs-5 fw-bold">Arándanos</h3>
+            <p className="card-text fs-6">Congelados - 100% Natural.</p>
+            <h5 className="card-text fs-4 fw-bold">$ 9.700<span className="fs-6 fw-normal"> x kilo</span></h5>
+            <Link to={"/productdetails"} className="btn btn-light text-dark">
+                Ver Producto
+            </Link>
+            <button className="btn btn-secondary" style={{ background: "#A44694" }}>
+                Comprar
+            </button>
+            <i className={`fa-solid fa-heart favorite-btn position-absolute top-0 end-0 mt-2 me-2 ${Favorite ? "text-danger" : "text-black-50"}`}
+                onClick={handleFavorite}
+                aria-label="Agregar a favoritos"
+            >
+            </i>
         </div>
     )
 }

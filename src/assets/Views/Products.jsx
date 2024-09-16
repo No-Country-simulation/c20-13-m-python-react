@@ -10,7 +10,7 @@ import Navbar from '../components/Navbar.jsx';
 
 export const Products = () => {
 
-  const products = Array.from({ length: 5 }, (_, index) => ({
+  const products = Array.from({ length: 10 }, (_, index) => ({
     id: index + 1,
     image: logo,
     text: `Producto ${index + 1}`,
@@ -20,10 +20,10 @@ export const Products = () => {
     <React.Fragment>
       <Navbar/>
       <ImgCarousel />
-      <div className="container-product">
+      <div className="container-fluid">
         <div className="row">
           {products.map((product) => (
-            <div className="col-sm-6 mb-4" key={product.id}>
+            <div className="col col-md-3 mb-4" key={product.id}>
               <Cards image={product.image} text={product.text} />
             </div>
           ))}
