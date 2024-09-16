@@ -12,6 +12,7 @@ import { Checkout } from "./assets/Views/CheckOut.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
+import RegistrationForm from "./assets/Views/RegistrationForm.jsx";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/productdetails/",
     element: <ProductDetails />
+  },
+  {
+    path: "/registrationform/",
+    element: <RegistrationForm />
   },
   {
     path: "/*",

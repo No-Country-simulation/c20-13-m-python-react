@@ -17,7 +17,7 @@ const HomeCard = () => {
       </div>
       <div className="row align-items-center justify-content-center">
         <img className="col bs" src={nevada} alt="Company logo" />
-        <img className="col logo" src={logo} alt="Company logo" />
+        <img className="col-3 bch" src={logo} alt="Company logo" />
         <img className="col bs" src={fresh} alt="Company logo" />
       </div>
     </div>
