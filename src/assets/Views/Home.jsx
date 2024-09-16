@@ -5,7 +5,7 @@ import "../styles/home.css";
 import { MarketFooter } from "../components/MarketFooter";
 import VG from "../img/VG.png";
 import home from "../img/home.png";
-import HomeCard from "../components/homeCard";
+import HomeCard from "../components/HomeCard.jsx";
 
 const Home = () => {
   return (
