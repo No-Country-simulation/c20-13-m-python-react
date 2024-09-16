@@ -10,6 +10,7 @@ import AboutUs from "./assets/Views/AboutUs.jsx";
 import { Pay } from "./assets/Views/Pay.jsx";
 import { Checkout } from "./assets/Views/CheckOut.jsx";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
 import RegistrationForm from "./assets/Views/RegistrationForm.jsx";
 
@@ -28,7 +29,6 @@ const router = createBrowserRouter([
   },
   {
     path: "/pay",
-
     element: <Pay />
   },
   {
@@ -45,9 +45,9 @@ const router = createBrowserRouter([
   },
   {
     path: "/*",
-    element: <NotFound />
-
+    element: <NotFound/>
   },
+ 
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>

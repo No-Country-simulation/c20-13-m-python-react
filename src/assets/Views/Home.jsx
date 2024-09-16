@@ -1,8 +1,13 @@
 import React from "react";
 import "../styles/home.css";
 import { MarketFooter } from "../components/MarketFooter";
+
+import VG from "../img/VG.png";
+import home from "../img/home.png";
+import HomeCard from "../components/HomeCard.jsx";
+
 import vitalGreens from "../img/vitalGreens.png";
-import HomeCard from "../components/homeCard";
+
 
 const Home = () => {
   return (
