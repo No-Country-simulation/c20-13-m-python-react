@@ -27,7 +27,7 @@ export const MarketFooter = () => {
                   color: "inherit",
                 }}
               >
-                <FaWhatsapp size={18} className="me-2" />
+                <FaWhatsapp color="green" size={18} className="me-2" />
                 +549 3464 443683
               </a>
               <a
@@ -99,7 +99,7 @@ export const MarketFooter = () => {
                 }}
               >
                 <i className="bi bi-phone">
-                  <BiMessage size={18} className="me-2" />
+                  <BiMessage color="#FD7012" size={18} className="me-2" />
                 </i>
                 <span className="ms-2">
                   Dentro 24 horas un vendedor se comunicará con vos para
@@ -113,7 +113,7 @@ export const MarketFooter = () => {
                 }}
               >
                 <i className="bi bi-shield-lock">
-                  <CiLock size={18} className="me-2" />
+                  <CiLock color="#FD7012" size={18} className="me-2" />
                 </i>
                 <span className="ms-2">
                   Comprá con tranquilidad. Sitio seguro.
