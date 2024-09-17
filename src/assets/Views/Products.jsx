@@ -5,6 +5,7 @@ import { Cards } from "../components/Cards.jsx"
 import { ImgCarousel } from "../components/ImgCarousel.jsx"
 import Footer from '../components/Footer.jsx';
 import { WhatsAppIcon } from '../components/WhatsAppIcon.jsx';
+import  Navbar  from "../components/Navbar.jsx";
 
 
 export const Products = () => {
@@ -17,6 +18,7 @@ export const Products = () => {
 
   return (
     <React.Fragment>
+      <Navbar/>
       <ImgCarousel />
       <div className="container-fluid">
         <div className="row">

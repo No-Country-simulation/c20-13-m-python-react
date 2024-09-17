@@ -1,14 +1,8 @@
 import React from "react";
 import "../styles/home.css";
 import { MarketFooter } from "../components/MarketFooter";
-
-import VG from "../img/VG.png";
-import home from "../img/home.png";
 import HomeCard from "../components/HomeCard.jsx";
-
 import vitalGreens from "../img/vitalGreens.png";
-
-import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
@@ -18,7 +12,6 @@ const Home = () => {
         <h4 className="p-3">Todo lo bueno, en nuestro Marketplace</h4>
       </header>
       <section className="grid-item">
-        <Navbar/>
         <HomeCard />
         <img
           className="bgimg"
