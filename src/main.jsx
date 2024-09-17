@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./assets/Views/Home.jsx";
 import { Products } from "./assets/Views/Products.jsx";
-import { ProductDetails } from "./assets/Views/ProductDetails.jsx"
+import { ProductDetails } from "./assets/Views/ProductDetails.jsx";
 
 import { NotFound } from "./assets/Views/NotFound.jsx";
 import AboutUs from "./assets/Views/AboutUs.jsx";
@@ -12,7 +12,9 @@ import { Checkout } from "./assets/Views/CheckOut.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
+import App from "./App.jsx";
 import RegistrationForm from "./assets/Views/RegistrationForm.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -29,15 +31,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/pay",
-    element: <Pay />
+    element: <Pay />,
   },
   {
     path: "/checkout",
-    element: <Checkout />
+    element: <Checkout />,
   },
   {
     path: "/productdetails/",
-    element: <ProductDetails />
+    element: <ProductDetails />,
   },
   {
     path: "/registrationform/",
@@ -45,7 +47,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/*",
-    element: <NotFound/>
+
+    element: <NotFound />,
+  },
+  {
+    path: "/app",
+    element: <App />,
   },
  
 ]);
