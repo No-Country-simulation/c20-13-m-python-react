@@ -6,7 +6,7 @@ import "../styles/pay.css";
 export const Pay = () => {
   return (
     <>
-      <Navbar />
+
       <div className="pay">
         <h1>Elegí como pagar</h1>
         <h3>Pagás: $x</h3>

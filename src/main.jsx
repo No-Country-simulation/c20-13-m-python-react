@@ -11,9 +11,7 @@ import { Pay } from "./assets/Views/Pay.jsx";
 import { Checkout } from "./assets/Views/CheckOut.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Cart from "./assets/components/Cart.jsx";
 import Navbar from "./assets/components/Navbar.jsx";
-import Sidebar from "./assets/components/sidebar.jsx";
 import "bootstrap";
 
 const router = createBrowserRouter([
@@ -46,18 +44,12 @@ const router = createBrowserRouter([
     path: "/*",
     element: <NotFound/>
   },
+
   {
     path: "/navbar",
     element: <Navbar/>
   },
-  {
-    path: "/cart",
-    element: <Cart/>
-  },
-  {
-    path: "/sidebar",
-    element: <Sidebar/>
-  },
+
   {
     element: <NotFound />
   }

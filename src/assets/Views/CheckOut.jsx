@@ -6,7 +6,7 @@ import "../styles/checkout.css";
 export const Checkout = () => {
   return (
     <>
-      <Navbar />
+
       <section className="checkout">
         <div className="text-center">
           <h2>Finaliza tu compra</h2>

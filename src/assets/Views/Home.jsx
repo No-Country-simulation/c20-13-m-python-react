@@ -6,6 +6,7 @@ import { MarketFooter } from "../components/MarketFooter";
 import VG from "../img/VG.png";
 import home from "../img/home.png";
 import HomeCard from "../components/homeCard";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <img src={VG} alt="VitalGreen Logo" />
       </header>
       <section>
+        <Navbar/>
         <HomeCard />
       </section>
       <img

@@ -20,7 +20,7 @@ export const Products = () => {
 
   return (
     <React.Fragment>
-      <Navbar/>
+
       <ImgCarousel />
       <div className="container-product">
         <div className="row">
@@ -36,4 +36,3 @@ export const Products = () => {
     </React.Fragment>
   );
 };
-
