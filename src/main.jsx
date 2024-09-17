@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
 import App from "./App.jsx";
 import RegistrationForm from "./assets/Views/RegistrationForm.jsx";
-
+import Navbar from "./assets/components/Navbar.jsx";
 
 const router = createBrowserRouter([
   {
@@ -54,7 +54,12 @@ const router = createBrowserRouter([
     path: "/app",
     element: <App />,
   },
- 
+  {
+    path: "/navbar",
+    element: <Navbar/>
+  },
+
+
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>

@@ -32,4 +32,3 @@ export const Products = () => {
     </React.Fragment>
   );
 };
-
