@@ -1,6 +1,7 @@
 .product-details {
     padding: 20px;
     max-width: 1200px;
+    height: auto;
     margin: auto;
     background-color: white;
 }
@@ -10,7 +11,7 @@
 }
 
 .product-image {
-    width: 70%;
+    width: 100%;
     margin: 20px;
 }
 
@@ -20,17 +21,17 @@
 }
 
 .product-name {
-    /* font-size: 1.5rem; */
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 .product-details-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
 .product-price {
-    /* font-size: 1.25rem; */
+    font-size: 3rem;
     margin-bottom: 15px;
 }
 
@@ -40,19 +41,15 @@
     gap: 10px;
 }
 
-.quantity-button, .add-button {
-    width: 100%;
+.quantity-button, .add-button, .shop-button {
+    max-width: 100%;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: white; 
     cursor: pointer;
     border-radius: 30px;
-}
-
-.quantity-button {
-    background-color: #6c757d;
 }
 
 .additional-info {

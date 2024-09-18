@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import logo from "/src/assets/img/logo.png";
-import "/src/home.css";
+import "../styles/home.css";
 
 const Home = () => {
   return (

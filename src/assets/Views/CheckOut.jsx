@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { CheckoutForm } from "../components/ChekoutForm";
 import "../styles/checkout.css";
 export const Checkout = () => {
   return (
     <>
-
       <section className="checkout">
         <div className="text-center">
           <h2>Finaliza tu compra</h2>
