@@ -4,9 +4,7 @@ import "./App.css";
 import { useApiCall } from "./store/apiCalls";
 
 function App() {
-  const bears = useApiCall((state) => state.bears);
-  const increasePopulation = useApiCall((state) => state.increasePopulation);
-  const removeAllBears = useApiCall((state) => state.removeAllBears);
+  const { bears, increasePopulation, removeAllBears } = useApiCall();
 
   return (
     <>
