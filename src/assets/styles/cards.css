@@ -1,0 +1,51 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.img-top {
+    width: 100%;
+    min-width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: white;
+}
+
+.card .btn {
+    width: 90%;
+    min-width: 50px;
+    height: auto;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-btn {
+    min-width: 50px;
+    height: auto;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#product-card {
+    height: auto;
+    width: 100%;
+    background-color: #fcecf9;
+}
+
+/* .favorite-btn:hover {
+    color: #ff0000;
+} */
+
+/* .position-relative {
+    position: relative;
+} */
+
+/* .position-absolute {
+    position: absolute;
+} */
