@@ -48,7 +48,7 @@ export const Pay = () => {
           </a>
         </div>
       </div>
-      <div className="fixed-bottom">
+      <div>
         <Footer />
       </div>
     </>
