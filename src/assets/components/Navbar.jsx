@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
-import { Cards } from "../components/Cards.jsx";
 import logo from "../img/logo.png";
 
 const Navbar = () => {
@@ -17,29 +16,29 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <nav className='navbar navbar-light bg-white shadow'>
-        <a className = "nav-brand"href=""></a>
-          <img src={logo} alt="" width="30" height="30"/>
-      </nav>
-      <div className="cart-icon" onClick={toggleCart}>
-        🛒
+      <div className='container'>
+        <nav className="navbar justify-content-between">
+          <a className = "nav-brand"href="">
+            <img src={logo} alt="" width="30" height="30"/>
+          </a>
+        </nav>
+        <div className="navbar-icons">
+          <div className="cart-icon" onClick={toggleCart}>🛒</div>
+          <div className="login-icon">
+            <a className="nav-link"href="RegistrationForm">👤 Iniciar Sesión</a>
+          </div>
+          <div className="navbar-toggler" onClick={toggleDrawer}>
+            <span className="navbar-toggler-icon"></span>
+          </div>
+        </div>
       </div>
-      <div className="login-icon">
-        <a className="nav-link"href="RegistrationForm"></a>
-        👤 Iniciar Sesión
-      </div>
-      <div className="navbar-toggler" onClick={toggleDrawer}
-      data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-      </div>
+
 
       {isDrawerOpen && (
         <div className="drawer">
           <div className="drawer-content">
             <h2>Navegación</h2>
-            <ul>
+            <ul className="nav-list">
               <li onClick={toggleDrawer}>Frutos Rojos</li>
               <li onClick={toggleDrawer}>Mermeladas</li>
               <li onClick={toggleDrawer}>Pulpas</li>
