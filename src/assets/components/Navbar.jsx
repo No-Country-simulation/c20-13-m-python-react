@@ -64,25 +64,29 @@ const Navbar = () => {
             <div className="product-item">
               <img src="https://via.placeholder.com/100" alt="Producto" />
             </div>
-            <h4>Arándanos x 0.5 kg</h4>
-              <div className="product-details">
-                <p>Congelado</p>
-                <p>100% Natural, sin agregados
-                  ni aditivos</p>
-              </div>
+            <h4>Arándanos</h4>
+            <div className="product-details">
+              <p>Congelado
+                100% Natural, sin agregados
+                ni aditivos.</p>
+            </div>
             <h4>$9.700</h4>
             <div className="buttons">
+              <button className='quantity-btn decrement'>-</button>
+              <span className="quantity-display">0.5</span>
+              <button className="quantity-btn increment">+</button>
               <button className="quantity-button" style={{ background: "#A44694",
                 borderRadius: '20px', color: '#FFFFFF', padding: '10px 20px', fontSize: '16px' }}>Agregar</button>
             </div>
             <h3>TOTAL: $9.700</h3>
             <div className="buttons">
-              <button className="add-button" style={{ background: "#A44694", borderRadius: '20px',
-                 color: '#FFFFFF', padding: '10px 20px', fontSize: '16px' }}>Finalizar Compra</button>
+              <button className="add-button" style={{ background: "#A44694", fontSize: '16px' }}>Finalizar Compra</button>
               <button className="add-button" style={{ background: "#FFFFFF", border: '1px solid #A44694', borderRadius: '20px',
-               color: '#A44694', padding: '10px 20px', fontSize: '16px' }}>Seguir comprando</button>
+                color: '#A44694'}}>Seguir comprando</button>
             </div>
-            <button onClick={toggleCart}>Cerrar</button>
+            <div className='close-button'>
+              <button onClick={toggleCart}>X</button>
+            </div>
           </div>
         </div>
       )}
