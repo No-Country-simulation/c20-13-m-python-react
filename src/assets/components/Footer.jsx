@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { FcGoogle } from "react-icons/fc";
 import { BsTruck } from "react-icons/bs";
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Div debajo ocupando todo el ancho con tres textos */}
+
         <div className="row mt-4">
           <div className="col-12">
             <div className="d-flex flex-column align-items-start">
