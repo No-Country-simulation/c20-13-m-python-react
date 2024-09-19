@@ -11,11 +11,24 @@
 .bch {
     min-width: 5%;
     height: auto;
+    transition-property: background-color;
+    transition-duration: 1s;
+
+}
+
+.bch:hover {
+    background-color: rgba(204, 204, 204, 0.42);
 }
 
 .bs {
     min-width: 5%;
     height: auto;
     max-inline-size: 5%;
+    transition-property: background-color;
+    transition-duration: 1s;
 
+}
+
+.bs:hover {
+    background-color: rgba(204, 204, 204, 0.42);
 }

@@ -13,7 +13,7 @@ export const CardsCarousel = () => {
             <div id="carouselIndicators" className="carousel slide">
                 <div className="carousel-content">
                     <div className="carousel-card active">
-                        <div className="d-flex flex-row overflow-scroll align-items-stretch">
+                        <div className="d-flex flex-row overflow-scroll">
                             <div className="col-4 m-2">
                                 <Cards />
                             </div>

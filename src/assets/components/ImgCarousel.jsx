@@ -12,19 +12,19 @@ export const ImgCarousel = () => {
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="5000">
                     <img src={img1} className="d-block mt-0" alt="Slide 1"></img>
-                    <div className="carousel-caption">
+                    <div className="inner-text">
                         <span className="fs-2 text-dark">ENVIOS GRATIS</span>
                     </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="5000">
                     <img src={img2} className="d-block mt-0" alt="Slide 2"></img>
-                    <div className="carousel-caption">
+                    <div className="inner-text">
                         <span className="fs-3 text-dark">AHORA PODES PAGAR CON</span>
                     </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="5000">
                     <img src={img3} className="d-block mt-0" alt="Slide 3"></img>
-                    <div className="carousel-caption">
+                    <div className="inner-text">
                         <span className="fs-4 text-dark">Los mejores frutos congelados, a un click de distancia.</span>
                     </div>
                 </div>
