@@ -20,7 +20,7 @@ export const Products = () => {
     <React.Fragment>
       <Navbar/>
       <ImgCarousel />
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           {products.map((product) => (
             <div className="col col-md-3 mb-4" key={product.id}>
