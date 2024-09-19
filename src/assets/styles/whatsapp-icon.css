@@ -1,7 +1,7 @@
 .whatsapp-button {
     position: fixed;
     bottom: 75px;
-    right: 75px;
+    right: 40px;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -20,6 +20,5 @@
   }
   
   .whatsapp-button .fa-whatsapp {
-    color: white; 
-    font-size: 24px; 
+    color: white;  
   }

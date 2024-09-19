@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Navbar.css';
+import '../styles/navbar.css';
 import { Cards } from "../components/Cards.jsx";
 import logo from "../img/logo.png";
 
@@ -45,10 +45,10 @@ const Navbar = () => {
               <li onClick={toggleDrawer}>Pulpas</li>
               <li onClick={toggleDrawer}>Quienes Somos</li>
               <li onClick={toggleDrawer}>Perfil</li>
-                <li onClick={toggleDrawer}>Editar mi Perfil</li>
-                <li onClick={toggleDrawer}>Compras pendientes</li>
-                <li onClick={toggleDrawer}>Favoritos</li>
-                <li onClick={toggleDrawer}>Historial</li>
+              <li onClick={toggleDrawer}>Editar mi Perfil</li>
+              <li onClick={toggleDrawer}>Compras pendientes</li>
+              <li onClick={toggleDrawer}>Favoritos</li>
+              <li onClick={toggleDrawer}>Historial</li>
               <li onClick={toggleDrawer}>Admin. para Berrychill</li>
               <li onClick={toggleDrawer}>Editar Productos</li>
               <li onClick={toggleDrawer}>Personalizar Tienda</li>

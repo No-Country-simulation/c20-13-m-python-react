@@ -1,23 +1,24 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { CheckoutForm } from "../components/ChekoutForm";
 import "../styles/checkout.css";
+import Navbar from "../components/Navbar";
+import CheckoutList from "../components/CheckoutList";
+
 export const Checkout = () => {
   return (
     <>
-
-      <section className="checkout">
+      <Navbar />
+      <section className="checkout mt-4">
         <div className="text-center">
           <h2>Finaliza tu compra</h2>
           <p>
-            Ya tienes una cuenta? <br />
-            <span>Hacé click aquí</span> para inicicar sesión o{" "}
-            <span>regístrate aquí.</span>
+            Ya tienes una cuenta?
+            <span> Hacé click aquí </span> para iniciar sesión o registrarte
           </p>
           <br />
-          <h4>Tu pedido</h4>
         </div>
+        <CheckoutList />
         <CheckoutForm />
       </section>
       <Footer />

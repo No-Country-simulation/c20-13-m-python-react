@@ -19,21 +19,45 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 315px;
+  width: 240px;
   height: 800px;
   border-radius: 16.9px;
   background: #ECD9E9;
   color: #000100;
-  padding: 12.675px;
+  padding: 20px;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
   z-index: 1000;
-  align-items: flex-start;
+  align-items: flex;
   flex-direction: column;
 }
 
 .drawer-content, .cart-content {
-  display: inline-flex;
+  flex: 1;
+  display: flex;
   flex-direction: column;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 10px;
+  padding: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-list li:hover {
+  background-color: #A44694;
+  color: #212529;
+  border-radius: 8px;
 }
 .buttons {
   display: flex;
