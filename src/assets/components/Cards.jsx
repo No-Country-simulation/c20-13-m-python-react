@@ -22,7 +22,7 @@ export const Cards = () => {
             <button className="btn btn-secondary" style={{ background: "#A44694" }}>
                 Comprar
             </button>
-            <i className={`fa-solid fa-heart favorite-btn position-absolute top-0 end-0 mt-2 me-2 ${Favorite ? "text-danger" : "text-black-50"}`}
+            <i className={`fa-regular fa-heart favorite-btn position-absolute top-0 end-0 mt-2 me-3 ${Favorite ? "fa-solid fa-heart text-danger" : ""}`}
                 onClick={handleFavorite}
                 aria-label="Agregar a favoritos"
             >

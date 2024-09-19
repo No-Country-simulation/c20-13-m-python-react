@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Navbar.css';
+import '../styles/navbar.css';
 import { Cards } from "../components/Cards.jsx";
 import logo from "../img/logo.png";
 
