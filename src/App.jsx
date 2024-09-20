@@ -1,19 +1,30 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-import './App.css';
-import Home from './assets/components/Home';
-import { Products } from "./assets/Views/Products";
-import Footer from './assets/components/Footer';
+import React from "react";
+import "./App.css";
+
+import { useApiCall } from "./store/apiCalls";
 
 function App() {
+  const { bears, increasePopulation, removeAllBears } = useApiCall();
 
   return (
     <>
-      <Home />
-      <Products />
-      <Footer />
+      <h1>Bears : {bears}</h1>
+      <button
+        onClick={() => {
+          increasePopulation();
+        }}
+      >
+        bears
+      </button>
+      <button
+        onClick={() => {
+          removeAllBears();
+        }}
+      >
+        Remove bears
+      </button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
