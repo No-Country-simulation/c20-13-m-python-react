@@ -30,7 +30,7 @@
   width: 240px;
   height: 800px;
   border-radius: 16.9px;
-  background: #ECD9E9;
+  background-color: #ECD9E9;
   color: #000100;
   padding: 20px;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
@@ -172,11 +172,10 @@ h2 {
 .close-button {
   position: absolute;
   right: 10px;
-  background: none;
+  background-color: #ECD9E9;;
   border: none;
   font-size: 1.0rem;
   cursor: pointer;
-  color: #A44694;
 }
 
 .quantity-btn {

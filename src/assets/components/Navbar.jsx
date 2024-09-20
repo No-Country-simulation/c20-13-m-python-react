@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="drawer-content">
             <h2>Navegación</h2>
             <ul className="nav-list">
-              <li onClick={toggleDrawer}>Frutos Rojos</li>
+              <li onClick={toggleDrawer}> Frutos Rojos</li>
               <li onClick={toggleDrawer}>Mermeladas</li>
               <li onClick={toggleDrawer}>Pulpas</li>
               <li onClick={toggleDrawer}>Quienes Somos</li>
@@ -54,6 +54,7 @@ const Navbar = () => {
               <li onClick={toggleDrawer}>Cerrar Sesión</li>
             </ul>
           </div>
+
         </div>
       )}
 
@@ -71,7 +72,7 @@ const Navbar = () => {
                 ni aditivos.</p>
             </div>
             <h4>$9.700</h4>
-            <div className="buttons">
+            <div className="btn-group" role='group' aria-label='basic example'>
               <button className='quantity-btn decrement'>-</button>
               <span className="quantity-display">0.5</span>
               <button className="quantity-btn increment">+</button>
