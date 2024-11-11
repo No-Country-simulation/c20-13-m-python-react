@@ -1,3 +1,42 @@
-.carousel-inner {
-    background-color: gainsboro;
+.carousel {
+    width: 100%;
+    max-width: 100vw;
 }
+
+.carousel-inner {
+    max-width: 100%;
+    height: 300px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 120px; 
+    left: 0;
+    width: 100%; 
+    text-align: center; 
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+.carousel-caption h5 {
+    color: #000; 
+    font-size: 2rem;
+}
+.carousel-caption h4 {
+    color: #000; 
+    font-size: 2rem; 
+}
+.carousel-caption p {
+    color: #000; 
+    font-size: 2rem;
+}
+

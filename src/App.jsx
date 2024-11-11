@@ -1,11 +1,30 @@
 import React from "react";
 import "./App.css";
-import Home from "./assets/components/Home";
-import { Products } from "./assets/Views/Products";
-import Footer from "./assets/components/Footer";
+
+import { useApiCall } from "./store/apiCalls";
 
 function App() {
-  return;
+  const { bears, increasePopulation, removeAllBears } = useApiCall();
+
+  return (
+    <>
+      <h1>Bears : {bears}</h1>
+      <button
+        onClick={() => {
+          increasePopulation();
+        }}
+      >
+        bears
+      </button>
+      <button
+        onClick={() => {
+          removeAllBears();
+        }}
+      >
+        Remove bears
+      </button>
+    </>
+  );
 }
 
 export default App;

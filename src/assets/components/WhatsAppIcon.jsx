@@ -13,7 +13,7 @@ export const WhatsAppIcon = () => {
         className="whatsapp-button"
         aria-label="Chat with us on WhatsApp"
       >
-            <i className="fa-brands fa-whatsapp"></i>
+            <i className="fa-brands fa-whatsapp fs-3"></i>
         </a>
     );
 }
